@@ -38,7 +38,7 @@
 
 ## 4. SSMS 기본 캐릭터셋 바꾸기 (UTF-8 BOM)
   SQL 소스에 한글을 쓰면 저장할때마다 매번 적합하지 않은 캐릭터 셋이라고 하여 다른 인코딩으로 저장하도록 메시지가 뜰 수도 있다.
-  아예 한글 지원 인코딩으로 SQL소스를 만들수 있게 템플릿을 수정하자.  
+  아예 처음부터 한글 지원 인코딩되게 SQL템플릿을 수정하자.  
 
-  다음 위치에 있는 SQLFile.sql 을 파일서버의 설치폴더/SSMS/SQLFile.sql 로 바꿔치기 한다.  
+  아래 위치에 있는 SQLFile.sql을 파일서버/설치폴더/SSMS/SQLFile.sql 로 바꿔치기 한다.  
 >  C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\SqlWorkbenchProjectItems\Sql\SQLFile.sql
