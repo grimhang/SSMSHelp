@@ -3,8 +3,7 @@
 ***
 ## 1. SSMS 한글로 바꾸기
   점프서버는 영문OS라서 SSMS도 영문으로 깔았을 텐데 한글로 표시언어를 바꾸자.  
-  SSMS실행 / Tools / Options / Environment / International Settings에  
-  현재는 Same as Microsoft Windows로 되어 있다.  
+  SSMS실행 / Tools / Options / Environment / International Settings에 현재는 Same as Microsoft Windows로 되어 있다.  
   한국어를 선택하고 SSMS 재실행하면 한글로 바꿔있다.
 
 * #### 1.1 한글 전환 문제
