@@ -21,7 +21,7 @@
 
 ## 3. 단축키 사용하기
   특정한 쿼리 명령어를 사용자 단축키를 지정할수 있다.  
-  SSMS / 도구 / 옵션 / 환경 / 키보드 / 쿼리 바로 가기 에서 지정하자
+  SSMS / 도구 / 옵션 / 환경 / 키보드 / 쿼리 바로 가기 에서 지정하자. 지정완료 후 ssms 재실행
 
 * a. 테이블 리스트 보기
 > ctrl + 3 : SELECT * FROM INFORMATION_SCHEMA.TABLES ORDER BY TABLE_NAME
