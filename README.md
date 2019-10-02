@@ -22,7 +22,7 @@
 ## 3. 단축키 사용하기
   특정한 쿼리 명령어를 사용자 단축키를 지정할수 있다.  
   SSMS / 도구 / 옵션 / 환경 / 키보드 / 쿼리 바로 가기 에서 지정하자. 지정완료 후 ssms 재실행  
-  
+
   이름을 선택하고 해당 단축키 실행하면 된다
 
 <table>
@@ -33,7 +33,7 @@
     </tr>
     <tr>
         <td>ctrl + 3</td>
-        <td>SELECT * <br> FROM INFORMATION_SCHEMA.TABLES<br>ORDER BY TABLE_NAME</td>
+        <td>SELECT * FROM INFORMATION_SCHEMA.TABLES ORDER BY TABLE_NAME</td>
         <td>테이블 리스트 보기</td>
     </tr>
     <tr>
