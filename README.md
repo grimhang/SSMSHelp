@@ -23,18 +23,35 @@
   특정한 쿼리 명령어를 사용자 단축키를 지정할수 있다.  
   SSMS / 도구 / 옵션 / 환경 / 키보드 / 쿼리 바로 가기 에서 지정하자. 지정완료 후 ssms 재실행
 
-* a. 테이블 리스트 보기
-> ctrl + 3 : SELECT * FROM INFORMATION_SCHEMA.TABLES ORDER BY TABLE_NAME
-
-* b. 테이블명을 더블클릭으로 선택하고 실행하면 해당 테이블 컬럼리스트 보임
-> ctrl + 4 : SP_COLUMNS
-
-* c. 프로시저나 함수명을 선택하고 실행하면 소스가 보임.  
-  단 결과가 표형태로 나와 불편한데 메뉴 / 쿼리 / 결과처리방법 / 표형태로 결과표시(Ctrl + T)으로 바꾸고 실행.  
-> ctrl + 5 : SP_HELPTEXT
-
-* d. 테이블명을 더블클릭으로 선택하고 실행하면 해당 테이블의 인덱스가 보임
-> ctrl + 6 : SP_HELPINDEX 
+<table>
+    <tr>
+        <th>단축키</th>
+        <th>sql</th>
+        <th>기능</th>
+    </tr>
+    <tr>
+        <td>ctrl + 3</td>
+        <td>SELECT * FROM INFORMATION_SCHEMA.TABLES ORDER BY TABLE_NAME</td>
+        <td>테이블 리스트 보기</td>
+    </tr>
+    <tr>
+        <td>ctrl + 4</td>
+        <td>SP_COLUMNS</td>
+        <td>테이블명을 더블클릭으로 선택하고 실행하면 해당 테이블 컬럼리스트 보임</td>
+    </tr>
+    <tr>
+        <td>ctrl + 5</td>
+        <td>SP_HELPTEXT</td>
+        <td>프로시저나 함수명을 선택하고 실행하면 소스가 보임.<br>
+            단 결과가 표형태로 나와 불편한데 <br>
+              메뉴 / 쿼리 / 결과처리방법 / 표형태로 결과표시(Ctrl + T)으로 바꾸고 실행.</td>
+    </tr>
+    <tr>
+        <td>ctrl + 6</td>
+        <td>SP_HELPINDEX</td>
+        <td>테이블명을 더블클릭으로 선택하고 실행하면 해당 테이블의 인덱스가 보임</td>
+    </tr>
+</table>
 
 ## 4. SSMS 기본 캐릭터셋 바꾸기 (UTF-8 BOM)
   SQL 소스에 한글을 쓰면 저장할때마다 매번 적합하지 않은 캐릭터 셋이라고 하여 다른 인코딩으로 저장하도록 메시지가 뜰 수도 있다.
