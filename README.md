@@ -31,7 +31,7 @@
     </tr>
     <tr>
         <td>ctrl + 3</td>
-        <td>SELECT * FROM INFORMATION_SCHEMA.TABLES ORDER BY TABLE_NAME</td>
+        <td>SELECT * <br> FROM INFORMATION_SCHEMA.TABLES<br>ORDER BY TABLE_NAME</td>
         <td>테이블 리스트 보기</td>
     </tr>
     <tr>
